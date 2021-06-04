@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
   }
 }
 class home extends StatelessWidget {
-  final ref = FirebaseFirestore.instance.collection('Notes');
+  final ref = FirebaseFirestore.instance.collection('notes');
   @override
   Widget build(BuildContext context) {
     return Scaffold(

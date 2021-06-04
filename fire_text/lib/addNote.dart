@@ -6,7 +6,7 @@ void main() {
 class add extends StatelessWidget {
   TextEditingController title = TextEditingController();
   TextEditingController content = TextEditingController();
-  CollectionReference ref = FirebaseFirestore.instance.collection('Notes');
+  CollectionReference ref = FirebaseFirestore.instance.collection('notes');
   @override
   Widget build(BuildContext context) {
     return Scaffold(
